@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1a7eb6c738.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Register here</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html" title="Navigation Bar">
+            <img src="images/flux-fashion-logo.png" alt="flux fashion logo" class="flux-logo">
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html" title="Homepage">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="questions.html" title="Questions">Questions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" title="Contact Page">Contact me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div>
+        <h1 id="content">What questions do you have?</h1>
+      </div>
+      <form class="form">
+        <div class="mb-3">
+          <label for="InputFirstName" class="form-label">First name:</label>
+          <input type="text" class="form-control" id="InputFirstName">
+        </div>
+        <div class="mb-3">
+          <label for="InputLastName" class="form-label">Last name:</label>
+          <input type="text" class="form-control" id="InputLastName">
+        </div>
+        <div class="mb-3">
+          <label for="InputEmail" class="form-label">Email address:</label>
+          <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="Check1">
+          <label class="form-check-label" for="Check1">Can we send promotional emails? (Optional)</label>
+        </div>
+        <div class="dropdown-center">
+          <h6>What is your body shape?</h6>
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Women
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Rectangle</a></li>
+            <li><a class="dropdown-item" href="#">Inverted Triangle</a></li>
+            <li><a class="dropdown-item" href="#">Apple</a></li>
+            <li><a class="dropdown-item" href="#">Pear</a></li>
+            <li><a class="dropdown-item" href="#">Hourglass</a></li>
+          </ul>
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Men
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Inverted Triangle</a></li>
+            <li><a class="dropdown-item" href="#">Triangle</a></li>
+            <li><a class="dropdown-item" href="#">Oval</a></li>
+            <li><a class="dropdown-item" href="#">Rectangle</a></li>
+            <li><a class="dropdown-item" href="#">Trapezoid</a></li>
+          </ul>
+        </div>
+        <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Questions:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+<footer class="fixed-bottom" >Coded by Jennie</footer>
+</body>
+</html>

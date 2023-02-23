@@ -15,6 +15,12 @@ h3 {
     margin-top: 100px;
 }
 
+h6 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
 footer {
     color: white;
     background-color: #ffbf69;
@@ -59,6 +65,24 @@ footer {
     vertical-align: middle;
     width: 100%;
   }
+
+  .mb-3 {
+    font-family: 'PT Sans Narrow', sans-serif;
+  }
+
+  .form {
+    width: 1800px;
+    margin: 50px;
+  }
+
+  .btn {
+    background: #ffbf69;
+    border-color: transparent;
+  }
+  .btn:hover {
+    background: #ff7d00;
+    border-color: transparent;
+}  
 
 #content {
     margin-top: 180px;
