@@ -1,24 +1,40 @@
 /* font-family: 'Roboto Condensed', sans-serif;
-font-family: 'PT Sans Narrow', sans-serif; */
+font-family: 'Old Standard TT', serif;*/
 body {
     margin: 100px 0;
   }
 
 h1 {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Prata', serif;
     text-align: center;
 }
 
 h3 {
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Old Standard TT', serif;
     text-align: center;
     margin-top: 100px;
 }
 
 h6 {
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Old Standard TT', serif;
     font-weight: lighter;
-    font-size: 16px;
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Old Standard TT', serif;
+    text-align: center;
+    margin: 40px;
+}
+  
+strong {
+    font-family: 'Old Standard TT', serif;
+    text-decoration: underline;
+}
+
+li {
+    font-family: 'Old Standard TT', serif;
+    list-style: none;
 }
 
 footer {
@@ -32,6 +48,11 @@ footer {
 
 .flux-logo {
    width: 200px;
+}
+
+.fashion-photos:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;   
 }
 
 .gender {
@@ -67,7 +88,7 @@ footer {
   }
 
   .mb-3 {
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Old Standard TT', serif;
   }
 
   .form {
@@ -84,6 +105,64 @@ footer {
     border-color: transparent;
 }  
 
-#content {
+.contact-info {
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid #ffbf69;
+    border-radius: 20px;
+  }
+.contact-info a {
+    color: #ff7d00;
+}
+.contact-info a:visited {
+    color: #ffbf69;
+}
+
+.body-shape {
+    width: 90px;
+}
+.body-shape:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: all .2s ease-in-out;
+}
+
+.content {
+    font-family: 'Old Standard TT', serif;
+    margin-left: -30px;
+}
+
+.container {
+    text-align: center;
+}
+
+.col-6 {
+    padding: 50px;
+}
+
+.copyrights {
+    background: #ffbf69;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.rectangle-clothing {
+    width: 400px;
+    margin: 40px;
+}
+
+#header {
     margin-top: 180px;
 }
+
+@media (max-width: 900px) {
+    h1 {
+      font-size: 40px;
+      line-height: 1.5;
+    }
+
+    h2 {
+      font-size: 30px;
+    }
+  }
