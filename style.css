@@ -148,7 +148,15 @@ footer {
     border-radius: 10px;
 }
 
-.rectangle-clothing {
+.women-body {
+    margin: 60px;
+}
+
+.men-body {
+    margin: 60px;
+}
+
+#rectangle-clothing {
     width: 400px;
     margin: 40px;
 }
