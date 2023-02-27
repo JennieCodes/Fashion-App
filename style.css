@@ -165,7 +165,7 @@ footer {
     margin-top: 180px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 375px) {
     h1 {
       font-size: 40px;
       line-height: 1.5;
