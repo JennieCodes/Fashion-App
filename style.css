@@ -174,4 +174,9 @@ footer {
     h2 {
       font-size: 30px;
     }
-  }
+
+    .images-main{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
