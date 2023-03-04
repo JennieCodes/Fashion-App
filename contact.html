@@ -69,27 +69,22 @@
         </div>
         <div class="dropdown-center">
           <h6>What is your body shape?</h6>
-          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-           Female
-          </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Rectangle</a></li>
-            <li><a class="dropdown-item" href="#">Inverted Triangle</a></li>
-            <li><a class="dropdown-item" href="#">Round/Apple</a></li>
-            <li><a class="dropdown-item" href="#">Triangle/Pear</a></li>
-            <li><a class="dropdown-item" href="#">Hourglass</a></li>
-          </ul>
-          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-           Male
-          </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Rectangle</a></li>
-            <li><a class="dropdown-item" href="#">Inverted Triangle</a></li>
-            <li><a class="dropdown-item" href="#">Round/Apple</a></li>
-            <li><a class="dropdown-item" href="#">Triangle/Pear</a></li>
-            <li><a class="dropdown-item" href="#">Hourglass/Trapezoid/Rhomboid</a></li>
-          </ul>
-        </div>
+          <select class="form-select btn btn-secondary w-fit-content" aria-label="Default select example">
+            <option selected>Female</option>
+            <option value="Rectangle">Inverted Triangle</option>
+            <option value="Inverted Triangle">Rectangle</option>
+            <option value="Round/Apple">Round</option>
+            <option value="Triangle/Pear">Hourglass</option>
+            <option value="Hourglass">Triangle</option>
+          </select>
+          <select class="form-select btn btn-secondary w-fit-content" aria-label="Default select example">
+            <option selected>Male</option>
+            <option value="Rectangle">Inverted Triangle</option>
+            <option value="Inverted Triangle">Rectangle</option>
+            <option value="Round/Apple">Round</option>
+            <option value="Triangle/Pear">Hourglass</option>
+            <option value="Hourglass">Triangle</option>
+          </select>
         <div class="mb-3">
         <label for="exampleFormControlTextarea1" class="form-label">Questions:</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
